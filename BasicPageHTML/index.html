@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Static</title>
+
+	<!-- add in styles from CSS file -->
+	<link rel="stylesheet" href="style.css">
+
+  <!-- get script from JavaScript file -->
+  <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+  <h1 style="font-family: Futura">Tik Tok</h1>
+
+  <p style="font-family: sans-serif">Use the stopwatch below to track the time you spend on Tik Tok.</p>
+
+	<div class="container">
+
+		<div id="display">
+			00:00:00
+		</div>
+
+		<div class="buttons">
+			<button id="startStop" onclick="startStop()">Start</button> <button id="reset" onclick="reset()">Reset</button>
+
+    </div>
+
+  </div>
+
+  <p><span id="dateTime"></span></p>
+  
+</body>
+</html>
