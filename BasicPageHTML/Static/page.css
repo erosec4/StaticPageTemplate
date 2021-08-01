@@ -1,0 +1,91 @@
+.navbar{
+  background-color: black;
+  font-family: sans-serif;
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 200px;
+  cursor: pointer;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.navbar ul li a{  /*access text properties*/
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background-color: turquoise;
+  color: magenta;
+}
+
+
+
+
+.container{
+  height: auto;
+  width: 100%;
+}
+
+#display{
+  width: 100%;
+  font-size: 90px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.buttons{
+  text-align: center;
+  font-size: 20px;
+}
+
+#dateTime{
+  font-size: 14px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.logContainer
+{
+  font-size: 26px;
+  font-family: sans-serif;
+  color: white;
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background: #FFBD59;
+}
+
+.content
+{
+  height: 100px;
+  width: 500px;
+  border-radius: 15px;
+  margin-left: 20px;
+  text-align: center;
+  overflow: auto;
+  background: magenta;
+}
+
+#logText{
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  margin-left: 25px;
+}
